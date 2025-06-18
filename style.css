@@ -1,34 +1,116 @@
-body{
-    background-color:#D1FED6;
-    color:#703D3D ;
-font-size: 20px;
-padding:0 24px;
-
-}
-.texto-um{
-    color:#703D3D ;
-    font-size: 24px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #D1FED6;
+    color: #333;
 }
 
-.texto-dois{
-    color: #703D3D;
-    font-size: 24px;
-
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.paragrafo{
-    font-size: 18px;
-}
-
-.rodape{
+h1 {
     text-align: center;
-    display:grid;
-    font-size: 18px;
-    color:#703D3D;
-
+    color: #4CAF50; /* A shade of green that relates to nature/countryside */
+    margin-bottom: 20px;
 }
 
-.imagem{
-    width: 60%;
+.image-top {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
+.image-bottom {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content-section p {
+    margin-bottom: 10px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.quiz-link, .article-link {
+    font-weight: bold;
+    color: #28a745; /* A success green */
+}
+
+.quiz-link:hover, .article-link:hover {
+    color: #218838;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Specific styling based on the image content */
+.quiz-info, .article-info {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #555;
+}
+
+.quiz-info a, .article-info a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.quiz-info a:hover, .article-info a:hover {
+    text-decoration: underline;
+}
+
+/* Layout for images and text to mimic the original more closely if needed */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section, .bottom-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-block {
+    padding: 0 15px;
+    max-width: 800px; /* Adjust based on desired text block width */
+    margin: 0 auto;
+}
